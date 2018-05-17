@@ -17,6 +17,7 @@
 *.ipr
 
 ### NetBeans ###
+/blog/
 /.idea/
 /.mvn/
 /nbproject/private/
