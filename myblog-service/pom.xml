@@ -18,5 +18,17 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
+    <build>
+        <!-- 为jar包取名 -->
+        <finalName>web</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <classifier>exec</classifier>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>

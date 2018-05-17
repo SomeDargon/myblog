@@ -11,6 +11,18 @@
 
     <groupId>com.myblog</groupId>
     <artifactId>myblog-commons</artifactId>
-
+    <build>
+        <!-- 为jar包取名 -->
+        <finalName>web</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <classifier>exec</classifier>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
