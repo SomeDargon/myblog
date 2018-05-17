@@ -23,12 +23,12 @@
 /nbproject/private/
 /build/
 /nbbuild/
-/blog-web/target/
-/blog-dao/target/
-/blog-service/target/
-/blog-security/target/
-/blog-task/target/
-/blog-commons/target/
+/myblog-web/target/
+/myblog-dao/target/
+/myblog-service/target/
+/myblog-security/target/
+/myblog-task/target/
+/myblog-commons/target/
 
 /dist/
 /nbdist/
